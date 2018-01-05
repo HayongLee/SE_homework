@@ -34,7 +34,7 @@ public class calc {
 		System.out.println("Result: " + result);
 		
 	}
-	static void printManual(){
+	public static void printManual(){
 		System.out.println("[ID: 1771504]");
 		System.out.println("[Name: 이하용]\n");
 		
@@ -43,13 +43,13 @@ public class calc {
 		System.out.println("3. Multiply two numbers");
 		System.out.println("4. Quit");
 	}
-	static int add(int number1, int number2){
+	public static int add(int number1, int number2){
 		return number1 + number2;
 	}
-	static int subtract(int number1, int number2){
+	public static int subtract(int number1, int number2){
 		return number1 - number2;
 	}
-	static int multiply(int number1, int number2){
+	public static int multiply(int number1, int number2){
 		return number1 * number2;
 	}
 }
