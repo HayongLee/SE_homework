@@ -27,6 +27,10 @@ public class calc {
 			System.out.println("y: " + number2);
 			break;
 		}
+		if(select == 4)
+		{
+			System.exit(0);
+		}
 		System.out.println("Result: " + result);
 		
 	}
