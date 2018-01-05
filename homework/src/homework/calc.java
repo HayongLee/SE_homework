@@ -1,10 +1,51 @@
 package homework;
 
+import java.util.Scanner;
+
 public class calc {
 
 	public static void main(String[] args) {
-		// TODO 자동 생성된 메소드 스텁
-
+		Scanner in = new Scanner(System.in);
+		int result = 0;
+		printManual();
+		
+		System.out.println("choose the number");
+		int select = in.nextInt();
+		
+		while(select != 4)
+		{
+			System.out.println("Input two numbers: ");
+			int number1 = in.nextInt();
+			int number2 = in.nextInt();
+			if(select == 1)
+				result = add(number1, number2);
+			else if(select == 2)
+				result = subtract(number1, number2);
+			else
+				result = multiply(number1, number2);
+			System.out.println("x: " + number1);
+			System.out.println("y: " + number2);
+			break;
+		}
+		System.out.println("Result: " + result);
+		
 	}
-
+	static void printManual(){
+		System.out.println("[ID: 1771504]");
+		System.out.println("[Name: 이하용]\n");
+		
+		System.out.println("1. Add two numbers");
+		System.out.println("2. Subtract two numbers");
+		System.out.println("3. Multiply two numbers");
+		System.out.println("4. Quit");
+	}
+	static int add(int number1, int number2){
+		return number1 + number2;
+	}
+	static int subtract(int number1, int number2){
+		return number1 - number2;
+	}
+	static int multiply(int number1, int number2){
+		return number1 * number2;
+	}
 }
