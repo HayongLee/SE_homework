@@ -9,7 +9,6 @@ public class calc {
 		int result = 0;
 		printManual();
 		
-		System.out.println("choose the number");
 		int select = in.nextInt();
 		
 		while(select != 4)
@@ -31,6 +30,7 @@ public class calc {
 		{
 			System.exit(0);
 		}
+		
 		System.out.println("Result: " + result);
 		
 	}
@@ -42,6 +42,7 @@ public class calc {
 		System.out.println("2. Subtract two numbers");
 		System.out.println("3. Multiply two numbers");
 		System.out.println("4. Quit");
+		System.out.println("\nchoose the number");
 	}
 	public static int add(int number1, int number2){
 		return number1 + number2;
