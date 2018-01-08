@@ -20,6 +20,9 @@ public class Calc {
 				result = add(number1, number2);
 			else if(select == 2)
 				result = subtract(number1, number2);
+			else
+				result = multiply(number1, number2);
+			
 			System.out.println("x: " + number1);
 			System.out.println("y: " + number2);
 			break;
@@ -47,5 +50,8 @@ public class Calc {
 	}
 	public static int subtract(int number1, int number2){
 		return number1 - number2;
+	}
+	public static int multiply(int number1, int number2){
+		return number1 * number2;
 	}
 }
