@@ -40,5 +40,4 @@ public class Calc {
 		System.out.println("4. Quit");
 		System.out.println("\nchoose the number");
 	}
-	
 }
