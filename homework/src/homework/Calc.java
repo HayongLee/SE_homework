@@ -16,12 +16,8 @@ public class Calc {
 			System.out.println("Input two numbers: ");
 			int number1 = in.nextInt();
 			int number2 = in.nextInt();
-			if(select == 1)
-				result = add(number1, number2);
-			else if(select == 2)
-				result = subtract(number1, number2);
-			else
-				result = multiply(number1, number2);
+			
+			
 			System.out.println("x: " + number1);
 			System.out.println("y: " + number2);
 			break;
@@ -44,6 +40,5 @@ public class Calc {
 		System.out.println("4. Quit");
 		System.out.println("\nchoose the number");
 	}
-	
 	
 }
