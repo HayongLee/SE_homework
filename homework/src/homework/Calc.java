@@ -18,6 +18,8 @@ public class Calc {
 			int number2 = in.nextInt();
 			if(select == 1)
 				result = add(number1, number2);
+			else if(select == 2)
+				result = subtract(number1, number2);
 			
 			System.out.println("x: " + number1);
 			System.out.println("y: " + number2);
@@ -44,5 +46,7 @@ public class Calc {
 	public static int add(int number1, int number2){
 		return number1 + number2;
 	}
-	
+	public static int subtract(int number1, int number2){
+		return number1 - number2;
+	}
 }
