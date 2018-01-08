@@ -16,6 +16,7 @@ public class Calc {
 			System.out.println("Input two numbers: ");
 			int number1 = in.nextInt();
 			int number2 = in.nextInt();
+			
 			if(select == 1)
 				result = add(number1, number2);
 			else if(select == 2)
