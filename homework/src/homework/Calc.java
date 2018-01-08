@@ -21,8 +21,11 @@ public class Calc {
 				result = add(number1, number2);
 			else if(select == 2)
 				result = subtract(number1, number2);
+<<<<<<< HEAD
 			else
 				result = multiply(number1, number2);
+=======
+>>>>>>> refs/heads/master
 			
 			System.out.println("x: " + number1);
 			System.out.println("y: " + number2);
@@ -49,10 +52,15 @@ public class Calc {
 	public static int add(int number1, int number2){
 		return number1 + number2;
 	}
+	
 	public static int subtract(int number1, int number2){
 		return number1 - number2;
 	}
+<<<<<<< HEAD
 	public static int multiply(int number1, int number2){
 		return number1 * number2;
 	}
+=======
+	
+>>>>>>> refs/heads/master
 }
